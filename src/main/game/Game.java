@@ -12,7 +12,7 @@ public class Game {
 	private Player player;
 	public Game() {
 		this.map = new Map(8, 8);
-		this.player = new Player(new FewerObstacles());
+		this.player = new Player(new ShortestDistance());
 	}
 	
 	public void run() {
